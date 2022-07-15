@@ -70,7 +70,7 @@ export default function Home() {
         </div>
       </nav>
       <main className="w-[90%] ml-auto mr-auto mt-7 relative md:mt-5">
-        <div className="w-full h-[200px] md:h-340 md:flex flex-col items-center justify-center">
+        <div className="w-full h-340 mb-12 flex flex-col items-center justify-center">
             <p className="text-2xl md:text-6xl text-white mt-auto text-center">
               A Cloud-Based Multi-Blockchain IDE.
             </p>
