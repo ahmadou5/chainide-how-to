@@ -59,7 +59,7 @@ export default function Home() {
           </div>
 
           {isActive && (
-            <div className=" w-340 h-510 bg-navBar rounded-lg fixed top-28 right-9 ml-auto mr-auto flex flex-col items-start justify-evenly gap-5">
+            <div className=" w-340 h-510 bg-navBar rounded-lg fixed top-28 m-auto flex flex-col items-start justify-evenly gap-5">
               <a href="" onClick={() => setisActive(false)} className="text-textBase font-medium ml-6 hover:text-slate-100 cursor-pointer duration-100 ease-in-out">Home</a>
               <a href="" onClick={() => setisActive(false)} className="text-textBase font-medium ml-6 hover:text-slate-100 cursor-pointer duration-100 ease-in-out">Links</a>
               <a href="" onClick={() => setisActive(false)} className="text-textBase font-medium ml-6 hover:text-slate-100 cursor-pointer duration-100 ease-in-out">Getting Started</a>
