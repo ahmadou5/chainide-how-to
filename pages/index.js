@@ -82,6 +82,22 @@ export default function Home() {
             </p>
         </div>
         <div className='w-full h-72'></div>
+        <div className="w-full h- md:flex flex-col items-center justify-center">
+            <p className="text-2xl md:text-4xl text-white mt-auto text-center">
+              How To ChainIDE.
+            </p>
+        </div>
+        <div className='w-full h-[25px]'></div>
+        <div className="w-[90%] ml-auto mr-auto h-80 md:flex flex-col items-center justify-center">
+           <p className="text-sm md:text-xl text-white text-center">
+              A Platform Developed For Web3 Developers by Web3 Developers,it aims to teach Junior Web3 Developers How to Use the Most Easiest Multi-Chain Development Enviroment and also the first Cloud Based IDE. Build, Debug,  Test Your Smart Contracts Easily.
+           </p>
+        </div>
+        <div className='w-full h-72'></div>
+        <div className="border border-zinc-800 rounded-md p-2 min-w-[300px] h-360 md:max-w-[90%] md:ml-auto md:mr-auto relative hover:border-zinc-600 duration-100 ease-in-out">
+          <img src="chain11.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
+        </div>
+        <div className='w-full h-72'></div>
         </main>
 
         
