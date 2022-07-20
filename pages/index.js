@@ -41,8 +41,8 @@ export default function Home() {
             <a href="#projects" onClick={() => setIsTut(!isTut)} className="text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out">Getting Started</a>
             {isTut && (
               <div className=" w-275 h-420 bg-navBar rounded-lg fixed top-28 right-55 m-auto flex flex-col items-start justify-evenly gap-5">
-                <a href="#projects" className="text-textBase font-medium hover:text-slate-100 ml-5 cursor-pointer duration-100 ease-in-out">ChainIDE Introduction</a>
-                <a href="#contact" className="text-textBase font-medium hover:text-slate-100 ml-5 cursor-pointer duration-100 ease-in-out">Enviroment Setup</a>
+                <Link href="/intro"><a  className="text-textBase font-medium hover:text-slate-100 ml-5 cursor-pointer duration-100 ease-in-out">ChainIDE Introduction</a></Link>
+              <Link href="/setup"><a className="text-textBase font-medium hover:text-slate-100 ml-5 cursor-pointer duration-100 ease-in-out">Enviroment Setup</a></Link>
                 <a href="#contact" className="text-textBase font-medium hover:text-slate-100 ml-5 cursor-pointer duration-100 ease-in-out">Wallet Configuration</a>
                 <a href="#contact" className="text-textBase font-medium hover:text-slate-100 ml-5 cursor-pointer duration-100 ease-in-out">ChainIDE Modules</a>
                 <a href="#contact" className="text-textBase font-medium hover:text-slate-100 ml-5 cursor-pointer duration-100 ease-in-out">Loading Your Network</a>
@@ -72,7 +72,7 @@ export default function Home() {
       <main className="w-[90%] ml-auto mr-auto mt-7 relative md:mt-5">
         <div className="w-full h-340 mb-12 flex flex-col items-center justify-center">
             <p className="text-2xl md:text-6xl text-white mt-auto text-center">
-              A Cloud-Based Multi-Blockchain IDE.
+              A Cloud-Based Integrated Development Environment for Cross-Blockchain Smart Contracts.
             </p>
             
         </div>
@@ -94,7 +94,19 @@ export default function Home() {
            </p>
         </div>
         <div className='w-full h-72'></div>
-        <div className="border border-zinc-800 rounded-md p-2 min-w-[300px] h-360 md:max-w-[90%] md:ml-auto md:mr-auto relative hover:border-zinc-600 duration-100 ease-in-out">
+        <div className="w-full h- md:flex flex-col items-center justify-center">
+            <p className="text-2xl md:text-4xl text-white mt-auto text-center">
+              Multi-Chain Support
+            </p>
+        </div>
+        <div className='w-full h-[45px]'></div>
+        <div className="w-[90%] ml-auto mr-auto h-80 md:flex flex-col items-center justify-center">
+           <p className="text-sm md:text-xl text-white text-center">
+              Code, Test, Debug and Deploy Your Smart Contract on Multiple EVM Compatible and Non-EVM Public Blockchains.
+           </p>
+        </div>
+        <div className='w-full h-72'></div>
+        <div className="border border-zinc-800 rounded-md p-2 min-w-[300px] h-360 md:max-w-[90%] ml-auto mr-auto relative hover:border-zinc-600 duration-100 ease-in-out">
           <img src="chain11.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
         </div>
         <div className='w-full h-72'></div>
