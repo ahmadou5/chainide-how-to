@@ -25,7 +25,7 @@ function intro() {
         </div>
         <div className='w-full h-32 md:h-56'></div>
         <div className="border border-zinc-800 rounded-md p-2 min-w-[300px] h-360 md:max-w-[90%] ml-auto mr-auto relative hover:border-zinc-600 duration-100 ease-in-out">
-          <Image src="../chain11.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
+          <img objectFit='cover' layout="fill" src="../chain11.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
         </div>
         <div className='w-full h-32 md:h-56'></div>
         <div className="md:w-[90%] w-full mb-20 ml-auto mr-auto h-320 md:h-80 md:flex flex-col items-start justify-center">
@@ -88,7 +88,7 @@ function intro() {
             The consortium blockchain is a system that is semi-private and has a controlled user group but works across different organizations.
            </p>
            <div className="border border-zinc-800 mb-25 rounded-md p-2 min-w-[300px] h-360 md:max-w-[80%] ml-auto mr-auto relative hover:border-zinc-600 duration-100 ease-in-out">
-             <Image src="../ant.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
+             <img objectFit='cover' layout="fill" src="/ant.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
            </div>
         </div>
         <div className='w-full h-56'></div>
@@ -100,7 +100,7 @@ function intro() {
             Public Blockchains are open to everyone, everyone has the right to join and become a node, every node can record all the transactions. Below are the blockchains that are supported by the ChainIDE. 
            </p>
            <div className="border border-zinc-800 mb-25 rounded-md p-2 min-w-[300px] h-360 md:max-w-[80%] ml-auto mr-auto relative hover:border-zinc-600 duration-100 ease-in-out">
-            <Image src="../bsc1.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
+            <img objectFit='cover' layout="fill" src="/bsc1.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
            </div>
            <p className="text-sm mt-11 md:text-xl text-white font-mono">
             For learning and testing purposes, public blockchains with the testing environment are suggested to use such as Ethereum, Conflux, DFINITY, and Binance Smart Chain.
