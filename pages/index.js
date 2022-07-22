@@ -20,7 +20,7 @@ export default function Home() {
       <div className='font-light' >
       <nav className="w-full z-50 fixed inset-x-0 top-2 flex justify-center mt-0 items-center">
         <div className="w-full h-24 md:[100%] bg-navBar p-4 rounded-md flex items-center">
-          <p className="text2xl md:text-4xl flex  text-slate-200 font-bold"><Image height="6px" width="6px" className='w-6 md:w-9 h-6 md:h-9 bg-transparent' alt='logo' src="/chain.png"/>hainIDE|</p><span className=' text-slate-200  text-xl mr-5'>How To </span> 
+          <p className="text2xl md:text-4xl flex  text-slate-200 font-bold"><Image height="6px" width="9px" className='w-6 md:w-9 h-6 md:h-9 bg-transparent' alt='logo' src="/chain.png"/>hainIDE|</p><span className=' text-slate-200  text-xl mr-5'>How To </span> 
 
           <div className="hidden md:ml-[250px]  md:flex items-center gap-6 flex-1">
             <Link href="/"><a className="text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out">Home</a></Link>
