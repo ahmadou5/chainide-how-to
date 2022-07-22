@@ -87,7 +87,7 @@ function intro() {
             The consortium blockchain is a system that is semi-private and has a controlled user group but works across different organizations.
            </p>
            <div className="border border-zinc-800 mb-25 rounded-md p-2 min-w-[300px] h-360 md:max-w-[80%] ml-auto mr-auto relative hover:border-zinc-600 duration-100 ease-in-out">
-             <img src="../ant.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
+             <Image src="../ant.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
            </div>
         </div>
         <div className='w-full h-56'></div>
@@ -99,7 +99,7 @@ function intro() {
             Public Blockchains are open to everyone, everyone has the right to join and become a node, every node can record all the transactions. Below are the blockchains that are supported by the ChainIDE. 
            </p>
            <div className="border border-zinc-800 mb-25 rounded-md p-2 min-w-[300px] h-360 md:max-w-[80%] ml-auto mr-auto relative hover:border-zinc-600 duration-100 ease-in-out">
-            <img src="../bsc1.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
+            <Image src="../bsc1.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
            </div>
            <p className="text-sm mt-11 md:text-xl text-white font-mono">
             For learning and testing purposes, public blockchains with the testing environment are suggested to use such as Ethereum, Conflux, DFINITY, and Binance Smart Chain.
@@ -114,7 +114,7 @@ function intro() {
             ChainIDE vision is to provide tools, frameworks, to help developers who wanna develop on blockchains and enrich people with blockchain knowledge. ChainIDE has conducted several webinars, seminars, and lectures in different institutions and universities such as Peking University, Shanghai Jiaotong University, University of Alberta, etc. In the first quarter of 2021, it has successfully delivered an 08-week course on blockchain for African students in collaboration with Binance. From 27-30 April 2021, it organized a webinar in collaboration with the University of Alberta, the great leader and experts from both academia and industry were called to give a speech and share their experiences in the field of blockchain and multimedia data science.
            </p>
            <p className="text-sm md:text-xl text-white text-center">
-            We aspire to improve our world and everyone's lives with the adoption of blockchain technologies. We aspire that governments and businesses will be more efficient, effective, and responsive – and, that the individual members of society will be the primary beneficiaries with the use of blockchain. We aim to develop and deliver high-quality, user-friendly, cost-effective, and advanced tools, frameworks, and knowledge in the field of blockchain. We value innovation and purposeful disruption. We value the enthusiasm, skill, and capabilities of our global blockchain community. ChainIDE team consists of highly expert, capable, and skilled members that have unique, valuable, and innovative ideas. We value empathy and caring for our planet and our common humanity.
+            We aspire to improve our world and everyone lives with the adoption of blockchain technologies. We aspire that governments and businesses will be more efficient, effective, and responsive – and, that the individual members of society will be the primary beneficiaries with the use of blockchain. We aim to develop and deliver high-quality, user-friendly, cost-effective, and advanced tools, frameworks, and knowledge in the field of blockchain. We value innovation and purposeful disruption. We value the enthusiasm, skill, and capabilities of our global blockchain community. ChainIDE team consists of highly expert, capable, and skilled members that have unique, valuable, and innovative ideas. We value empathy and caring for our planet and our common humanity.
            </p>
         </div>
         <div className='w-full h-56'></div>
