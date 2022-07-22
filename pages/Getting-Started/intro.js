@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import styles from '../../styles/Home.module.css'
+import Image from 'next/image'
 
 function intro() {
   return (
@@ -24,7 +25,7 @@ function intro() {
         </div>
         <div className='w-full h-32 md:h-56'></div>
         <div className="border border-zinc-800 rounded-md p-2 min-w-[300px] h-360 md:max-w-[90%] ml-auto mr-auto relative hover:border-zinc-600 duration-100 ease-in-out">
-          <img src="../chain11.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
+          <Image src="../chain11.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
         </div>
         <div className='w-full h-32 md:h-56'></div>
         <div className="md:w-[90%] w-full mb-20 ml-auto mr-auto h-320 md:h-80 md:flex flex-col items-start justify-center">
