@@ -20,7 +20,7 @@ export default function Home() {
       <div className='font-light' >
       <nav className="w-full z-50 fixed inset-x-0 top-2 flex justify-center mt-0 items-center">
         <div className="w-full h-24 md:[100%] bg-navBar p-4 rounded-md flex items-center">
-          <p className="text2xl md:text-4xl flex  text-slate-200 font-bold"><Image className='w-6 md:w-9 h-6 md:h-9 bg-transparent' src="/chain.png"/>hainIDE|</p><span className=' text-slate-200  text-xl mr-5'>How To </span> 
+          <p className="text2xl md:text-4xl flex  text-slate-200 font-bold"><Image className='w-6 md:w-9 h-6 md:h-9 bg-transparent' alt='logo' src="/chain.png"/>hainIDE|</p><span className=' text-slate-200  text-xl mr-5'>How To </span> 
 
           <div className="hidden md:ml-[250px]  md:flex items-center gap-6 flex-1">
             <Link href="/"><a className="text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out">Home</a></Link>
@@ -108,7 +108,7 @@ export default function Home() {
         </div>
         <div className='w-full h-72'></div>
         <div className="border border-zinc-800 rounded-md p-2 min-w-[300px] h-360 md:max-w-[90%] ml-auto mr-auto relative hover:border-zinc-600 duration-100 ease-in-out">
-          <Image src="chain11.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
+          <Image src="chain11.png" alt="chain" className="w-full h-360 object-cover rounded-md my-4"/>
         </div>
         <div className='w-full h-72'></div>
         </main>
