@@ -52,7 +52,7 @@ function intro() {
             Edit, compile and deploy with ease
            </p>
            <p className="text-sm md:text-xl text-white text-center">
-            At its heart, ChainIDE features a lightning-fast source code editor, perfect for day-to-day use. With support for multiple languages such as JavaScript, HTML, CSS, Solidity, etc. ChainIDE helps you be instantly productive with syntax highlighting, bracket-matching, auto-indentation, box-selection, snippets, and more. For serious coding, you'll often benefit from tools with more code understanding than just blocks of text. ChainIDE includes built-in support for IntelliSense code completion, rich semantic code understanding and navigation, and code refactoring.
+            At its heart, ChainIDE features a lightning-fast source code editor, perfect for day-to-day use. With support for multiple languages such as JavaScript, HTML, CSS, Solidity, etc. ChainIDE helps you be instantly productive with syntax highlighting, bracket-matching, auto-indentation, box-selection, snippets, and more. For serious coding, you will often benefit from tools with more code understanding than just blocks of text. ChainIDE includes built-in support for IntelliSense code completion, rich semantic code understanding and navigation, and code refactoring.
            </p>
            <p className="text-sm mt-11 md:text-xl text-white text-center">
             And when the coding gets tough, the tough get debugging. Debugging is often the one feature that developers miss most in a leaner coding experience, so we made it happen. ChainIDE includes an interactive compiler and interaction module. 
