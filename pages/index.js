@@ -28,11 +28,11 @@ export default function Home() {
             {isLink && (
               <div className=" w-275 h-340 bg-navBar rounded-lg fixed top-28 left-80 m-auto flex flex-col items-start justify-evenly gap-3">
                 <a href="https://chainide.com/" target="_blank" className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">ChainIDE</a>
-                <a href="https://discord.gg/CpRbQe6w" target="_blank"  className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">Discord</a>
-                <a href="https://twitter.com/ChainIde" target="_blank"  className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">Twitter</a>
-                <a href="https://t.me/ChainIDEdevelopers" target="_blank"  className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">Telegram</a>
-                <a href="https://github.com/WhiteMatrixTech" target="_blank"  className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">Github</a>
-                <a href="https://chainide.gitbook.io/chainide-english-1/"  target="_blank" className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">Docs</a>
+                <a href="https://discord.gg/CpRbQe6w"  className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">Discord</a>
+                <a href="https://twitter.com/ChainIde"  className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">Twitter</a>
+                <a href="https://t.me/ChainIDEdevelopers"  className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">Telegram</a>
+                <a href="https://github.com/WhiteMatrixTech"  className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">Github</a>
+                <a href="https://chainide.gitbook.io/chainide-english-1/"  className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">Docs</a>
               </div>
               )}
 
