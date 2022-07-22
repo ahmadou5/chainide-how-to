@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react'
 import styles from '../styles/Home.module.css'
@@ -19,7 +20,7 @@ export default function Home() {
       <div className='font-light' >
       <nav className="w-full z-50 fixed inset-x-0 top-2 flex justify-center mt-0 items-center">
         <div className="w-full h-24 md:[100%] bg-navBar p-4 rounded-md flex items-center">
-          <p className="text2xl md:text-4xl flex  text-slate-200 font-bold"><img className='w-6 md:w-9 h-6 md:h-9 bg-transparent' src="/chain.png"/>hainIDE|</p><span className=' text-slate-200  text-xl mr-5'>How To </span> 
+          <p className="text2xl md:text-4xl flex  text-slate-200 font-bold"><Image className='w-6 md:w-9 h-6 md:h-9 bg-transparent' src="/chain.png"/>hainIDE|</p><span className=' text-slate-200  text-xl mr-5'>How To </span> 
 
           <div className="hidden md:ml-[250px]  md:flex items-center gap-6 flex-1">
             <Link href="/"><a className="text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out">Home</a></Link>
@@ -27,7 +28,7 @@ export default function Home() {
             <a href="#projects" onClick={() => setIsLink(!isLink)} className="text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out">Links</a>
             {isLink && (
               <div className=" w-275 h-340 bg-navBar rounded-lg fixed top-28 left-80 m-auto flex flex-col items-start justify-evenly gap-3">
-                <a href="https://chainide.com/" target="_blank" className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">ChainIDE</a>
+                <a href="https://chainide.com/"  className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">ChainIDE</a>
                 <a href="https://discord.gg/CpRbQe6w"  className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">Discord</a>
                 <a href="https://twitter.com/ChainIde"  className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">Twitter</a>
                 <a href="https://t.me/ChainIDEdevelopers"  className="text-textBase font-medium hover:text-slate-100 cursor-pointer ml-5 duration-100 ease-in-out">Telegram</a>
