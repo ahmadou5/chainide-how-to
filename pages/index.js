@@ -108,7 +108,7 @@ export default function Home() {
         </div>
         <div className='w-full h-72'></div>
         <div className="border border-zinc-800 rounded-md p-2 min-w-[300px] h-360 md:max-w-[90%] ml-auto mr-auto relative hover:border-zinc-600 duration-100 ease-in-out">
-          <img src="chain11.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
+          <Image src="chain11.png" alt="" className="w-full h-360 object-cover rounded-md my-4"/>
         </div>
         <div className='w-full h-72'></div>
         </main>
